@@ -1,0 +1,93 @@
+# Ambiente virtual do Python
+venv/
+env/
+.env
+.venv/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Dados do projeto
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/processed/*
+data/curated/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/curated/.gitkeep
+
+# Notebooks Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Arquivos e pasta do PostgreSQL
+*.dump
+postgres_data/
+
+# Arquivos gerados pelo Docker
+.docker/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+.directory
+*.swp
+*~
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de configuração IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Arquivos de configuração específicos de deploy
+deploy/
+.env.prod
+.env.dev
+
+# Arquivos de cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Streamlit
+.streamlit/secrets.toml
